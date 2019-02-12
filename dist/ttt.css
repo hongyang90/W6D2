@@ -1,0 +1,64 @@
+h1 {
+  text-align: center;
+  font-family: arial;
+  border: 3px solid purple;
+  border-radius: 5px;
+}
+
+.squares {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 520px;
+}
+
+.black {
+  display: flex;
+  width: 132px;
+  height: 132px;
+  background: black;
+  padding: 5px;
+  /* margin: 5px; */
+  border: 5px solid gray;
+}
+
+.x {
+  background: red;
+  font-size: 108pt;
+  color: white;
+  font-family: arial;
+  align-items: center;
+  justify-content: center;
+  background-image: url('http://www.nhm.ac.uk/resources/visit/wpy/2012/small/31.jpg');
+  display: flex;
+  width: 132px;
+  height: 132px;
+  padding: 5px;
+  /* margin: 5px; */
+  border: 5px solid gray;
+}
+
+.o {
+  background:yellow;
+  background-image: url('https://img.taste.com.au/uBYB-vS0/taste/2016/11/basic-mayonnaise-31237-1.jpeg');
+  background-size: cover;
+  font-size: 108pt;
+  font-family: arial;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 132px;
+  height: 132px;
+  padding: 5px;
+  /* margin: 5px; */
+  border: 5px solid gray;
+}
+
+.black:hover{
+  background: blue;
+  padding: 5px;
+  margin: 5px gray;
+  border: 5px solid gray;
+}
