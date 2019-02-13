@@ -33,7 +33,12 @@ class View {
 
 
       if (this.game.isOver()) {
-        alert(`GAME OVER ${this.game.winner()} WINS!!!!!`);
+        if (this.game.winner()) {
+          alert(`GAME OVER ${this.game.winner()} WINS!!!!!`);
+          
+        } else {
+          alert('No One Wins!');
+        }
       }
     }
   }
